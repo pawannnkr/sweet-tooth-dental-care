@@ -1,12 +1,12 @@
-import Hero from "@/components/sections/home/Hero";
-import AboutDoctor from "@/components/sections/home/AboutDoctor";
-import Services from "@/components/sections/home/Services";
-import WhyChooseUs from "@/components/sections/home/WhyChooseUs";
-import Gallery from "@/components/sections/home/Gallery";
-import Testimonials from "@/components/sections/home/Testimonials";
-import FAQ from "@/components/sections/home/FAQ";
-import Contact from "@/components/sections/home/Contact";
-import TrustBar from "@/components/sections/home/TrustBar";
+import Hero from "@/components/sections/Hero";
+import TrustBar from "@/components/sections/TrustBar";
+import AboutDoctor from "@/components/sections/AboutDoctor";
+import Services from "@/components/sections/Services";
+import WhyChooseUs from "@/components/sections/WhyChooseUs";
+import Gallery from "@/components/sections/Gallery";
+import Testimonials from "@/components/sections/Testimonials";
+import FAQ from "@/components/sections/FAQ";
+import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
