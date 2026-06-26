@@ -18,7 +18,7 @@ export default function AboutDoctor() {
         />
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="flex justify-center">
+          <div className="relative h-[600px] w-full">
             <Image
               src={doctor.image}
               alt={doctor.name}
