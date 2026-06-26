@@ -6,15 +6,23 @@ import Container from "@/components/common/Container";
 import Section from "@/components/common/Section";
 import SectionHeader from "@/components/common/SectionHeader";
 
-export default function Gallery() {
+interface GalleryProps {
+  showHeader?: boolean;
+}
+
+export default function Gallery({
+  showHeader = true,
+}: GalleryProps) {
   return (
     <Section>
       <Container>
-        <SectionHeader
-          badge="Gallery"
-          title="A Glimpse of Our Clinic"
-          subtitle="Explore our modern clinic, advanced dental equipment, and comfortable treatment environment."
-        />
+        {showHeader && (
+          <SectionHeader
+            badge="Gallery"
+            title="A Glimpse of Our Clinic"
+            subtitle="Explore our modern clinic, advanced dental equipment, and comfortable treatment environment."
+          />
+        )}
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {gallery.map((item) => (

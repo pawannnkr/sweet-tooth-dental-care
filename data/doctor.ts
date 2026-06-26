@@ -3,7 +3,7 @@ const doctor = {
 
   qualification: "BDS",
 
-  experience: "8+ Years",
+  experience: "4+ Years",
 
   image: "/doctor/doctor-1.jpeg",
 
@@ -16,6 +16,7 @@ const doctor = {
     "Smile Designing",
     "Teeth Whitening",
     "Braces",
+    "Crowns & Bridges",
   ],
 };
 

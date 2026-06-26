@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-
+import Link from "next/link";
 import services from "@/data/services";
 
 import Container from "@/components/common/Container";
@@ -45,9 +45,11 @@ export default function Services() {
                     {service.duration}
                   </span>
 
-                  <Button className="rounded-full">
-                    Learn More
-                  </Button>
+                  <Link href={`/treatments/${service.slug}`}>
+                    <Button className="rounded-full">
+                      Learn More
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>

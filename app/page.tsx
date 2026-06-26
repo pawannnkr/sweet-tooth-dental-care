@@ -1,6 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import TrustBar from "@/components/sections/TrustBar";
-import AboutDoctor from "@/components/sections/AboutDoctor";
+import AboutDoctor from "@/components/sections/DoctorProfile";
 import Services from "@/components/sections/Services";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Gallery from "@/components/sections/Gallery";

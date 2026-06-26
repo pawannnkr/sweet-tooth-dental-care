@@ -20,7 +20,7 @@ const services: Service[] = [
 
     title: "Root Canal Treatment",
 
-    image: "/gallery/gallery-1.jpeg",
+    image: "/treatments/rct.jpeg",
 
     shortDescription:
       "Pain-free treatment to save infected teeth.",
@@ -53,7 +53,7 @@ const services: Service[] = [
 
     title: "Dental Implant",
 
-    image: "/treatments/implant.jpg",
+    image: "/treatments/implant.jpeg",
 
     shortDescription:
       "Permanent replacement for missing teeth.",
@@ -86,7 +86,7 @@ const services: Service[] = [
 
     title: "Teeth Whitening",
 
-    image: "/treatments/whitening.jpg",
+    image: "/treatments/whitening.jpeg",
 
     shortDescription:
       "Brighten your smile safely.",
@@ -117,7 +117,7 @@ const services: Service[] = [
 
     title: "Braces",
 
-    image: "/treatments/braces.jpg",
+    image: "/treatments/braces.jpeg",
 
     shortDescription:
       "Straighten your teeth confidently.",
@@ -142,6 +142,72 @@ const services: Service[] = [
       "Adjustments",
     ],
   },
+  
+  {
+  slug: "wisdom-tooth-extraction",
+
+  title: "Wisdom Tooth Extraction",
+
+  image: "/treatments/wisdom.jpeg",
+
+  shortDescription:
+    "Safe and comfortable removal of impacted or painful wisdom teeth.",
+
+  description:
+    "Wisdom tooth extraction is a common dental procedure performed to remove impacted, infected, or problematic wisdom teeth. Our advanced techniques ensure minimal discomfort, faster healing, and a smooth recovery process.",
+
+  duration: "30–60 Minutes",
+
+  recovery: "3–7 Days",
+
+  benefits: [
+    "Relieves Tooth Pain",
+    "Prevents Infection",
+    "Protects Nearby Teeth",
+    "Quick Recovery",
+  ],
+
+  procedure: [
+    "Clinical Examination",
+    "Digital X-Ray",
+    "Local Anesthesia",
+    "Tooth Removal",
+    "Post-Operative Care",
+  ],
+},
+
+{
+  slug: "smile-makeover",
+
+  title: "Smile Makeover",
+
+  image: "/treatments/smile.jpeg",
+
+  shortDescription:
+    "Transform your smile with personalized cosmetic dental treatments.",
+
+  description:
+    "A smile makeover combines multiple cosmetic dental procedures such as veneers, whitening, bonding, and contouring to enhance the appearance of your smile. Every treatment plan is customized to match your facial features and aesthetic goals.",
+
+  duration: "2–4 Visits",
+
+  recovery: "Minimal",
+
+  benefits: [
+    "Beautiful Smile",
+    "Boosts Confidence",
+    "Natural Appearance",
+    "Customized Treatment Plan",
+  ],
+
+  procedure: [
+    "Smile Analysis",
+    "Treatment Planning",
+    "Cosmetic Procedures",
+    "Final Adjustments",
+    "Smile Evaluation",
+  ],
+}
 ];
 
 export default services;
