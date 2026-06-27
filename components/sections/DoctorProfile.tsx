@@ -1,6 +1,7 @@
 import Image from "next/image";
 import doctor from "@/data/doctor";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 import Container from "@/components/common/Container";
 import Section from "@/components/common/Section";
@@ -52,8 +53,13 @@ export default function AboutDoctor() {
               ))}
             </div>
 
-            <Button className="mt-10 rounded-full px-8">
-              Know More
+            <Button
+              asChild
+              className="mt-10 rounded-full px-8"
+            >
+              <Link href="/about">
+                Know More
+              </Link>
             </Button>
           </div>
         </div>

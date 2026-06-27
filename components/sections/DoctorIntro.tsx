@@ -9,12 +9,23 @@ export default function DoctorIntro() {
           {/* Doctor Image */}
           <div className="relative mx-auto max-w-md">
             <div className="overflow-hidden rounded-3xl shadow-2xl">
-              <Image
-                src="/doctor/doctor.jpeg" // <-- Replace with your doctor's image
+              {/* <Image
+                src="/doctor/doctor-1.png" // <-- Replace with your doctor's image
                 alt="Doctor"
                 width={500}
                 height={650}
                 className="w-full object-cover"
+                //className="w-full h-auto rounded-3xl"
+                //className="w-full h-auto object-cover"
+              /> */}
+
+              <Image
+                src="/doctor/doctor-1.png"
+                alt="Doctor"
+                width={650}
+                height={750}
+                priority
+                className="rounded-[40px]"
               />
             </div>
           </div>

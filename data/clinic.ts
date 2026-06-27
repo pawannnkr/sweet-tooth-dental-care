@@ -3,9 +3,9 @@ const clinic = {
 
   doctor: "Dr. Jyoti Kumari",
 
-  phone: "+91 9102117027",
+  phone: "+919102117027",
 
-  whatsapp: "+919102117027",
+  whatsapp: "919102117027",
 
   email: "sweettoothdentalcare2025@gmail.com",
 

@@ -1,5 +1,6 @@
 "use client";
-
+import Link from "next/link";
+import clinic from "@/data/clinic";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import {
@@ -55,22 +56,32 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-wrap gap-5">
               <Button
+                asChild
                 size="lg"
                 className="rounded-full px-8"
               >
-                <Calendar className="mr-2 h-5 w-5" />
-
-                Book Appointment
+                <Link
+                  href={`https://wa.me/${clinic.whatsapp.replace("+", "")}?text=${encodeURIComponent(
+                    "Hi Dr. Jyoti,\n\nI'd like to book an appointment at Sweet Tooth Dental Care."
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Calendar className="mr-2 h-5 w-5" />
+                  Book Appointment
+                </Link>
               </Button>
 
               <Button
+                asChild
                 size="lg"
                 variant="outline"
                 className="rounded-full px-8"
               >
-                <Phone className="mr-2 h-5 w-5" />
-
-                Call Now
+                <a href={`tel:${clinic.phone.replace(/\s/g, "")}`}>
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call Now
+                </a>
               </Button>
             </div>
           </motion.div>
@@ -81,7 +92,8 @@ export default function Hero() {
             transition={{ duration: 0.9 }}
             className="relative"
           >
-            <div className="absolute -left-8 top-24 rounded-3xl bg-white shadow-xl p-5">
+            <div className="absolute -left-10 top-24 rounded-3xl bg-blue-100 shadow-xl p-4">
+              <div className="absolute -left-5 top-1/2 h-16 w-8 -translate-y-1/2 rounded-full bg-blue-100"></div>
               <div className="flex items-center gap-3">
                 <Star
                   fill="#FFD700"
@@ -101,7 +113,7 @@ export default function Hero() {
             </div>
 
             <Image
-              src="/doctor/doctor.png"
+              src="/doctor/doctor-2.png"
               alt="Doctor"
               width={650}
               height={750}
@@ -109,16 +121,18 @@ export default function Hero() {
               className="rounded-[40px]"
             />
 
-            <div className="absolute -right-5 bottom-12 bg-white shadow-xl rounded-3xl px-8 py-6">
-              <h3 className="font-bold text-2xl">
+            <div className="absolute -right-8 bottom-12 rounded-3xl bg-blue-100 shadow-xl px-8 py-6">
+              <div className="absolute -right-5 top-1/2 h-16 w-8 -translate-y-1/2 rounded-full bg-blue-100"></div>
+              <h3 className="font-semibold">
                 Pain-Free
               </h3>
 
-              <p className="text-slate-500">
+              <p className="text-sm text-slate-500">
                 Advanced Dental Care
               </p>
             </div>
           </motion.div>
+
 
         </div>
       </div>
