@@ -37,7 +37,7 @@ export default function DoctorIntro() {
             </span>
 
             <h2 className="mt-3 text-4xl font-bold text-slate-900">
-              Dr. Your Doctor Name
+              Dr. Jyoti Kumari
             </h2>
 
             <p className="mt-2 text-lg font-medium text-sky-600">
