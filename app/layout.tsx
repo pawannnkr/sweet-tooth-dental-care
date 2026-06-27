@@ -1,7 +1,7 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
-
+import JsonLd from "@/components/seo/JsonLd";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/shared/FloatingButtons";
@@ -18,6 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <JsonLd />
+
         <Navbar />
 
         {children}
