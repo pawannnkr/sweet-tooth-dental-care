@@ -1,36 +1,172 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦷 Sweet Tooth Dental Care
 
-## Getting Started
+A modern, responsive, SEO-optimized dental clinic website built using **Next.js 16**, **React 19**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
 
-First, run the development server:
+The project was designed for **Sweet Tooth Dental Care**, providing patients with an intuitive experience to explore treatments, learn about the clinic, and book appointments through WhatsApp or phone.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://sweettoothdentalcare.vercel.app
+
+---
+
+## ✨ Features
+
+* 🦷 Modern and responsive landing page
+* 👩‍⚕️ Doctor profile section
+* 📋 Treatments showcase
+* 🖼️ Gallery page
+* 📞 Contact page with Google Maps integration
+* 💬 WhatsApp appointment booking
+* ☎️ One-click call functionality
+* 📱 Mobile-first responsive design
+* ⚡ Fast loading with Cloudinary CDN
+* 🎨 Beautiful UI using Tailwind CSS & shadcn/ui
+* 🚀 Smooth animations using Framer Motion
+* 🔍 Production-ready SEO
+* 📍 Local Business & Dentist structured data
+* 📄 Custom 404 page
+* ⏳ Loading UI
+* 🌙 Clean reusable component architecture
+
+---
+
+# 🛠 Tech Stack
+
+| Technology    | Purpose                      |
+| ------------- | ---------------------------- |
+| Next.js 16    | React Framework              |
+| React 19      | UI Library                   |
+| TypeScript    | Type Safety                  |
+| Tailwind CSS  | Styling                      |
+| shadcn/ui     | UI Components                |
+| Framer Motion | Animations                   |
+| Cloudinary    | Image Hosting & Optimization |
+| Lucide React  | Icons                        |
+| Vercel        | Deployment                   |
+
+---
+
+# 📂 Project Structure
+
+```
+app/
+components/
+│
+├── common/
+├── home/
+├── layout/
+├── shared/
+│
+data/
+lib/
+types/
+public/
+```
+
+---
+
+# 📄 Pages
+
+* Home
+* About
+* Treatments
+* Gallery
+* Contact
+* Loading
+* Custom 404
+
+---
+
+# 🚀 Performance Optimizations
+
+* Images hosted on Cloudinary CDN
+* Automatic image optimization using:
+
+```
+f_auto,q_auto
+```
+
+* Lazy loading for non-critical images
+* Responsive image sizing
+* SEO metadata
+* Sitemap generation
+* Robots.txt
+* Structured Data (JSON-LD)
+
+
+---
+
+# 🏗 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/sweet-tooth-dental-care.git
+```
+
+Go inside the project
+
+```bash
+cd sweet-tooth-dental-care
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🌟 Highlights
 
-To learn more about Next.js, take a look at the following resources:
+* Production-ready architecture
+* SEO-friendly implementation
+* Responsive across all devices
+* Reusable components
+* Scalable project structure
+* Optimized asset delivery using Cloudinary
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 📈 Future Improvements
 
-## Deploy on Vercel
+* Online appointment booking system
+* Admin dashboard
+* Patient testimonials with images
+* Blog section
+* Multi-doctor support
+* CMS integration
+* Google Analytics
+* Appointment management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 👨‍💻 Developed By
+
+**Pawan Kumar**
+
+Software Engineer | Frontend & Backend Developer
+
+GitHub: https://github.com/pawannnkr
+
+LinkedIn: https://linkedin.com/in/pawan-kumar-a9a22315b
+
+---
+
+## ⭐ If you like this project, consider giving it a star.
