@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const siteConfig = {
   name: "Sweet Tooth Dental Care",
 
-  title: "Sweet Tooth Dental Care | Best Dentist in Kankarbagh, Patna",
+  title: "Sweet Tooth Dental Care | Dr. Jyoti Kumari Patna | Best Dentist in Kankarbagh, Patna",
 
   description:
     "Sweet Tooth Dental Care is a modern dental clinic in Kankarbagh, Patna, led by Dr. Jyoti Kumari. We provide Root Canal Treatment, Dental Implants, Teeth Whitening, Smile Makeovers, Braces, Wisdom Tooth Extraction, and complete family dental care.",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
   title: {
     default: siteConfig.title,
-    template: "%s | Sweet Tooth Dental Care",
+    template: "%s | Sweet Tooth Dental Care | Dr. Jyoti Kumari Patna | Best Dentist in Kankarbagh, Patna",
   },
 
   description: siteConfig.description,
@@ -92,8 +92,8 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_120,f_auto,q_auto/v1782730630/sweet_tooth/icon_iemmak.png",
+    shortcut: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_120,f_auto,q_auto/v1782730630/sweet_tooth/icon_iemmak.png",
+    apple: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_120,f_auto,q_auto/v1782730630/sweet_tooth/icon_iemmak.png",
   },
 };

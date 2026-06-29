@@ -45,14 +45,18 @@ export default function Navbar() {
           href="/"
           className="flex items-center gap-3"
         >
+          <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white p-2 shadow-lg ring-4 ring-blue-50 overflow-hidden">
           <Image
-            src="/logo/logo.png"
+            src="https://res.cloudinary.com/dgfff5bfx/image/upload/f_auto,q_auto,w_120/v1782730641/sweet_tooth/logo_g5hah9"
             alt="Sweet Tooth Dental Care"
-            width={50}
-            height={50}
-            className="h-12 w-auto"
+            width={56}
+            height={56}
+            //className="h-12 w-auto"
+            unoptimized
             priority
+            className="h-full w-full objectcover"
           />
+          </div>
 
           <div>
             <h1 className="text-xl font-bold leading-none text-blue-600">

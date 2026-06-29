@@ -8,7 +8,7 @@ export default function DoctorIntro() {
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Doctor Image */}
           <div className="relative mx-auto max-w-md">
-            <div className="overflow-hidden rounded-3xl shadow-2xl">
+            <div className="overflow-hidden rounded-3xl shadow-3xl">
               {/* <Image
                 src="/doctor/doctor-1.png" // <-- Replace with your doctor's image
                 alt="Doctor"
@@ -20,14 +20,14 @@ export default function DoctorIntro() {
               /> */}
 
               <Image
-                src="/doctor/doctor-1.png"
+                src="https://res.cloudinary.com/dgfff5bfx/image/upload/w_650,f_auto,q_auto/v1782730578/sweet_tooth/doctor-1_ov29mh"
                 alt="Doctor"
                 width={650}
                 height={750}
-                priority
-                className="rounded-[40px]"
+                unoptimized
+                className="rounded-[30px]"
               />
-            </div>
+              </div>
           </div>
 
           {/* Content */}

@@ -113,10 +113,12 @@ export default function Hero() {
             </div>
 
             <Image
-              src="/doctor/doctor-2.png"
+              src="https://res.cloudinary.com/dgfff5bfx/image/upload/w_700,f_auto,q_auto/v1782752550/sweet_tooth/doctor-2_miyi67.png"
+
               alt="Doctor"
               width={650}
               height={750}
+              unoptimized
               priority
               className="rounded-[40px]"
             />
