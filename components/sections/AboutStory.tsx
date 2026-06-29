@@ -8,10 +8,11 @@ export default function AboutStory() {
           {/* Image */}
           <div className="relative overflow-hidden rounded-3xl shadow-xl">
             <Image
-              src="/clinic/clinic-1.png"
+              src="https://res.cloudinary.com/dgfff5bfx/image/upload/w_800,f_auto,q_auto/v1782754903/sweet_tooth/clinic_1_iqobm8.png"
               alt="Sweet Tooth Dental Care Clinic"
               width={700}
               height={500}
+              unoptimized
               className="h-full w-full object-cover transition duration-500 hover:scale-105"
             />
           </div>

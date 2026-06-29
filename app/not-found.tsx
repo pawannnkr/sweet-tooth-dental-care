@@ -12,12 +12,13 @@ export default function NotFound() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-sky-50 via-white to-cyan-50 px-6">
       <div className="max-w-xl text-center">
         <Image
-          src="/logo/logo.png"
+          src="https://res.cloudinary.com/dgfff5bfx/image/upload/f_auto,q_auto,w_120/v1782730641/sweet_tooth/logo_g5hah9"
           alt="Sweet Tooth Dental Care"
           width={90}
           height={90}
           className="mx-auto h-auto w-24"
           priority
+          unoptimized
         />
 
         <h1 className="mt-8 text-7xl font-extrabold text-blue-600">

@@ -4,12 +4,13 @@ export default function Loading() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-sky-50 via-white to-cyan-50">
       <Image
-        src="/logo/logo.png"
+        src="https://res.cloudinary.com/dgfff5bfx/image/upload/f_auto,q_auto,w_120/v1782730641/sweet_tooth/logo_g5hah9"
         alt="Sweet Tooth Dental Care"
         width={80}
         height={80}
         className="h-auto w-20 animate-pulse"
         priority
+        unoptimized
       />
 
       <h2 className="mt-6 text-2xl font-bold text-slate-800">

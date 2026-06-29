@@ -19,13 +19,15 @@ export default function AboutDoctor() {
         />
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="relative h-[600px] w-full">
+          <div className="overflow-hidden rounded-3xl shadow-3xl">
             <Image
               src={doctor.image}
               alt={doctor.name}
               width={500}
               height={600}
-              className="rounded-3xl shadow-xl object-cover"
+              unoptimized
+              className="rounded-[30px]"
+              //className="rounded-3xl shadow-xl object-cover"
             />
           </div>
 

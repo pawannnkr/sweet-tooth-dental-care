@@ -20,7 +20,7 @@ const services: Service[] = [
 
     title: "Root Canal Treatment",
 
-    image: "/treatments/rct.jpeg",
+    image: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_700,f_auto,q_auto/v1782754908/sweet_tooth/rct_gziuoi.png",
 
     shortDescription:
       "Pain-free treatment to save infected teeth.",
@@ -53,7 +53,7 @@ const services: Service[] = [
 
     title: "Dental Implant",
 
-    image: "/treatments/implant.jpeg",
+    image: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_700,f_auto,q_auto/v1782730552/sweet_tooth/implant_t2fi4s.jpg",
 
     shortDescription:
       "Permanent replacement for missing teeth.",
@@ -86,7 +86,7 @@ const services: Service[] = [
 
     title: "Teeth Whitening",
 
-    image: "/treatments/whitening.jpeg",
+    image: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_700,f_auto,q_auto/v1782754909/sweet_tooth/whitening_jbixeu.png",
 
     shortDescription:
       "Brighten your smile safely.",
@@ -117,7 +117,7 @@ const services: Service[] = [
 
     title: "Braces",
 
-    image: "/treatments/braces.jpeg",
+    image: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_700,f_auto,q_auto/v1782754908/sweet_tooth/braces_rmje7d.png",
 
     shortDescription:
       "Straighten your teeth confidently.",
@@ -148,7 +148,7 @@ const services: Service[] = [
 
   title: "Wisdom Tooth Extraction",
 
-  image: "/treatments/wisdom.jpeg",
+  image: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_700,f_auto,q_auto/v1782754907/sweet_tooth/wisdom_tcn1zt.png",
 
   shortDescription:
     "Safe and comfortable removal of impacted or painful wisdom teeth.",
@@ -181,7 +181,7 @@ const services: Service[] = [
 
   title: "Smile Makeover",
 
-  image: "/treatments/smile.jpeg",
+  image: "https://res.cloudinary.com/dgfff5bfx/image/upload/w_700,f_auto,q_auto/v1782754911/sweet_tooth/smile_ncd9xa.png",
 
   shortDescription:
     "Transform your smile with personalized cosmetic dental treatments.",
